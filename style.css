@@ -1,0 +1,28 @@
+
+body{
+    background-image: url('pexels-photo-5581836.jpeg')
+}
+
+.navigation_header{
+   margin-top: 5px;
+   padding-left: 20px;
+    position: fixed;
+
+  
+}
+
+.navigation-bar{
+    align-content: center;
+    display: inline-block;
+    float:right;
+    padding:10px;
+    margin-right: 20px;
+    
+    
+}
+
+.navigation-bar a:hover{
+    background-color: blue;
+    color: darkturquoise;
+}
+
