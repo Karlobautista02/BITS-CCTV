@@ -1,23 +1,26 @@
 
 body{
-    background-image: url('pexels-photo-5581836.jpeg')
+    background-image: url('pexels-photo-5581836.jpeg');
+    margin-left: 50px;
 }
 
 .navigation_header{
-   margin-top: 5px;
+    background-color: crimson;
+    overflow: hidden;
+    display: block;
+   margin-top: 0;
    padding-left: 20px;
-    position: fixed;
+    position:fixed;
 
   
 }
 
 .navigation-bar{
-    align-content: center;
     display: inline-block;
-    float:right;
+    background-color: azure;
+    list-style-type: none;
     padding:10px;
     margin-right: 20px;
-    
     
 }
 
@@ -26,3 +29,9 @@ body{
     color: darkturquoise;
 }
 
+.main-content{
+    margin-top: 0;
+    background-color: aqua;
+    text-align: center;
+    font-size: larger;
+}
