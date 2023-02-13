@@ -1,45 +1,47 @@
-
-body{
-    background: url('pexels-photo-5581836.jpeg');
-    -webkit-background-size: cover;
-    -moz-background-size; cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh;
-    margin: 0;
+body {
+  background: url("pexels-photo-5581836.jpeg");
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
 }
 
-.navigation_header{
-    /* background-color: crimson; */
-    overflow: hidden;
+.navigation_header {
+  /* background-color: crimson; */
+  overflow: hidden;
+  background-color: azure;
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+.navigation_header a{
+    float: left;
     display: inline-block;
-   margin: 0;
-   padding-left: 20px;
-    position:fixed;
-    width: 100%;
-text-align: center;
-box-sizing: border-box;
-  
-}
-
-.navigation-bar{
-    display: inline-block;
-    /* background-color: azure; */
-    list-style-type: none;
-    padding:10px;
-    margin: 0;
- 
-    
-}
-
-.navigation-bar a:hover{
-    background-color: yellow;
-    color: darkturquoise;
-}
-
-.main-content{
-    margin-top: 0;
-    background-color: aqua;
     text-align: center;
-    font-size: larger;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navigation_header a:hover{
+    background-color: black;
+    color: white;
+}
+.bits-head{
+    font-size: 50px;
+    color: blue;
+margin-left: 50px;
+}
+img {
+    float: left;
+}
+
+.services-headers{
+    display: inline-block;
+    border: 1px solid;
+}
+
+
+.header-content {
+  margin-top: 100px;
+  background-color: rgb(21, 6, 240);
+  text-align: center;
+  font-size: larger;
 }
